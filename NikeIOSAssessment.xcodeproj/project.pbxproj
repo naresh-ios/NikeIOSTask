@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A804EF6824214A2B0057B9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6724214A2B0057B9C2 /* AppDelegate.swift */; };
+		A804EF6A24214A2B0057B9C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6924214A2B0057B9C2 /* ViewController.swift */; };
+		A804EF6D24214A2B0057B9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A804EF6B24214A2B0057B9C2 /* Main.storyboard */; };
+		A804EF7024214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6E24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld */; };
+		A804EF7224214A2D0057B9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A804EF7124214A2D0057B9C2 /* Assets.xcassets */; };
+		A804EF7524214A2D0057B9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A804EF7324214A2D0057B9C2 /* LaunchScreen.storyboard */; };
+		A804EF8024214A2D0057B9C2 /* NikeIOSAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF7F24214A2D0057B9C2 /* NikeIOSAssessmentTests.swift */; };
+		A804EF8B24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF8A24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A804EF7C24214A2D0057B9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A804EF5C24214A2B0057B9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A804EF6324214A2B0057B9C2;
+			remoteInfo = NikeIOSAssessment;
+		};
+		A804EF8724214A2E0057B9C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A804EF5C24214A2B0057B9C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A804EF6324214A2B0057B9C2;
+			remoteInfo = NikeIOSAssessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A804EF6424214A2B0057B9C2 /* NikeIOSAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeIOSAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A804EF6724214A2B0057B9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A804EF6924214A2B0057B9C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A804EF6C24214A2B0057B9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A804EF6F24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NikeIOSAssessment.xcdatamodel; sourceTree = "<group>"; };
+		A804EF7124214A2D0057B9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A804EF7424214A2D0057B9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A804EF7624214A2D0057B9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A804EF7B24214A2D0057B9C2 /* NikeIOSAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeIOSAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A804EF7F24214A2D0057B9C2 /* NikeIOSAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeIOSAssessmentTests.swift; sourceTree = "<group>"; };
+		A804EF8124214A2D0057B9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A804EF8624214A2D0057B9C2 /* NikeIOSAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeIOSAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A804EF8A24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeIOSAssessmentUITests.swift; sourceTree = "<group>"; };
+		A804EF8C24214A2E0057B9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A804EF6124214A2B0057B9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A804EF7824214A2D0057B9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A804EF8324214A2D0057B9C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A804EF5B24214A2B0057B9C2 = {
+			isa = PBXGroup;
+			children = (
+				A804EF6624214A2B0057B9C2 /* NikeIOSAssessment */,
+				A804EF7E24214A2D0057B9C2 /* NikeIOSAssessmentTests */,
+				A804EF8924214A2E0057B9C2 /* NikeIOSAssessmentUITests */,
+				A804EF6524214A2B0057B9C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A804EF6524214A2B0057B9C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF6424214A2B0057B9C2 /* NikeIOSAssessment.app */,
+				A804EF7B24214A2D0057B9C2 /* NikeIOSAssessmentTests.xctest */,
+				A804EF8624214A2D0057B9C2 /* NikeIOSAssessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A804EF6624214A2B0057B9C2 /* NikeIOSAssessment */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF6724214A2B0057B9C2 /* AppDelegate.swift */,
+				A804EF6924214A2B0057B9C2 /* ViewController.swift */,
+				A804EF6B24214A2B0057B9C2 /* Main.storyboard */,
+				A804EF7124214A2D0057B9C2 /* Assets.xcassets */,
+				A804EF7324214A2D0057B9C2 /* LaunchScreen.storyboard */,
+				A804EF7624214A2D0057B9C2 /* Info.plist */,
+				A804EF6E24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld */,
+			);
+			path = NikeIOSAssessment;
+			sourceTree = "<group>";
+		};
+		A804EF7E24214A2D0057B9C2 /* NikeIOSAssessmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF7F24214A2D0057B9C2 /* NikeIOSAssessmentTests.swift */,
+				A804EF8124214A2D0057B9C2 /* Info.plist */,
+			);
+			path = NikeIOSAssessmentTests;
+			sourceTree = "<group>";
+		};
+		A804EF8924214A2E0057B9C2 /* NikeIOSAssessmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF8A24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift */,
+				A804EF8C24214A2E0057B9C2 /* Info.plist */,
+			);
+			path = NikeIOSAssessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A804EF6324214A2B0057B9C2 /* NikeIOSAssessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A804EF8F24214A2E0057B9C2 /* Build configuration list for PBXNativeTarget "NikeIOSAssessment" */;
+			buildPhases = (
+				A804EF6024214A2B0057B9C2 /* Sources */,
+				A804EF6124214A2B0057B9C2 /* Frameworks */,
+				A804EF6224214A2B0057B9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NikeIOSAssessment;
+			productName = NikeIOSAssessment;
+			productReference = A804EF6424214A2B0057B9C2 /* NikeIOSAssessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A804EF7A24214A2D0057B9C2 /* NikeIOSAssessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A804EF9224214A2E0057B9C2 /* Build configuration list for PBXNativeTarget "NikeIOSAssessmentTests" */;
+			buildPhases = (
+				A804EF7724214A2D0057B9C2 /* Sources */,
+				A804EF7824214A2D0057B9C2 /* Frameworks */,
+				A804EF7924214A2D0057B9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A804EF7D24214A2D0057B9C2 /* PBXTargetDependency */,
+			);
+			name = NikeIOSAssessmentTests;
+			productName = NikeIOSAssessmentTests;
+			productReference = A804EF7B24214A2D0057B9C2 /* NikeIOSAssessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A804EF8524214A2D0057B9C2 /* NikeIOSAssessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A804EF9524214A2E0057B9C2 /* Build configuration list for PBXNativeTarget "NikeIOSAssessmentUITests" */;
+			buildPhases = (
+				A804EF8224214A2D0057B9C2 /* Sources */,
+				A804EF8324214A2D0057B9C2 /* Frameworks */,
+				A804EF8424214A2D0057B9C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A804EF8824214A2E0057B9C2 /* PBXTargetDependency */,
+			);
+			name = NikeIOSAssessmentUITests;
+			productName = NikeIOSAssessmentUITests;
+			productReference = A804EF8624214A2D0057B9C2 /* NikeIOSAssessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A804EF5C24214A2B0057B9C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Naresh Nadhendla";
+				TargetAttributes = {
+					A804EF6324214A2B0057B9C2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A804EF7A24214A2D0057B9C2 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A804EF6324214A2B0057B9C2;
+					};
+					A804EF8524214A2D0057B9C2 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A804EF6324214A2B0057B9C2;
+					};
+				};
+			};
+			buildConfigurationList = A804EF5F24214A2B0057B9C2 /* Build configuration list for PBXProject "NikeIOSAssessment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A804EF5B24214A2B0057B9C2;
+			productRefGroup = A804EF6524214A2B0057B9C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A804EF6324214A2B0057B9C2 /* NikeIOSAssessment */,
+				A804EF7A24214A2D0057B9C2 /* NikeIOSAssessmentTests */,
+				A804EF8524214A2D0057B9C2 /* NikeIOSAssessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A804EF6224214A2B0057B9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A804EF7524214A2D0057B9C2 /* LaunchScreen.storyboard in Resources */,
+				A804EF7224214A2D0057B9C2 /* Assets.xcassets in Resources */,
+				A804EF6D24214A2B0057B9C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A804EF7924214A2D0057B9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A804EF8424214A2D0057B9C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A804EF6024214A2B0057B9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A804EF6A24214A2B0057B9C2 /* ViewController.swift in Sources */,
+				A804EF7024214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld in Sources */,
+				A804EF6824214A2B0057B9C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A804EF7724214A2D0057B9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A804EF8024214A2D0057B9C2 /* NikeIOSAssessmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A804EF8224214A2D0057B9C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A804EF8B24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A804EF7D24214A2D0057B9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A804EF6324214A2B0057B9C2 /* NikeIOSAssessment */;
+			targetProxy = A804EF7C24214A2D0057B9C2 /* PBXContainerItemProxy */;
+		};
+		A804EF8824214A2E0057B9C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A804EF6324214A2B0057B9C2 /* NikeIOSAssessment */;
+			targetProxy = A804EF8724214A2E0057B9C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A804EF6B24214A2B0057B9C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A804EF6C24214A2B0057B9C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A804EF7324214A2D0057B9C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A804EF7424214A2D0057B9C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A804EF8D24214A2E0057B9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A804EF8E24214A2E0057B9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A804EF9024214A2E0057B9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikeIOSAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NikeIOSAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A804EF9124214A2E0057B9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikeIOSAssessment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NikeIOSAssessment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A804EF9324214A2E0057B9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikeIOSAssessmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NikeIOSAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeIOSAssessment.app/NikeIOSAssessment";
+			};
+			name = Debug;
+		};
+		A804EF9424214A2E0057B9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikeIOSAssessmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NikeIOSAssessmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeIOSAssessment.app/NikeIOSAssessment";
+			};
+			name = Release;
+		};
+		A804EF9624214A2E0057B9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikeIOSAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NikeIOSAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeIOSAssessment;
+			};
+			name = Debug;
+		};
+		A804EF9724214A2E0057B9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NikeIOSAssessmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.NikeIOSAssessmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeIOSAssessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A804EF5F24214A2B0057B9C2 /* Build configuration list for PBXProject "NikeIOSAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A804EF8D24214A2E0057B9C2 /* Debug */,
+				A804EF8E24214A2E0057B9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A804EF8F24214A2E0057B9C2 /* Build configuration list for PBXNativeTarget "NikeIOSAssessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A804EF9024214A2E0057B9C2 /* Debug */,
+				A804EF9124214A2E0057B9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A804EF9224214A2E0057B9C2 /* Build configuration list for PBXNativeTarget "NikeIOSAssessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A804EF9324214A2E0057B9C2 /* Debug */,
+				A804EF9424214A2E0057B9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A804EF9524214A2E0057B9C2 /* Build configuration list for PBXNativeTarget "NikeIOSAssessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A804EF9624214A2E0057B9C2 /* Debug */,
+				A804EF9724214A2E0057B9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A804EF6E24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A804EF6F24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodel */,
+			);
+			currentVersion = A804EF6F24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodel */;
+			path = NikeIOSAssessment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A804EF5C24214A2B0057B9C2 /* Project object */;
+}
