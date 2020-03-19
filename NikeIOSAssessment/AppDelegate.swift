@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  NikeIOSAssessment
-//
-//  Created by Naresh Nadhendla on 3/17/20.
-//  Copyright © 2020 Naresh Nadhendla. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
@@ -14,9 +6,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let navController = UINavigationController()
+        let viewController = ListViewController()
+        navController.viewControllers = [viewController]
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
         return true
     }
 

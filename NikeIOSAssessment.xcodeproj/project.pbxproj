@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A804EF6824214A2B0057B9C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6724214A2B0057B9C2 /* AppDelegate.swift */; };
-		A804EF6A24214A2B0057B9C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6924214A2B0057B9C2 /* ViewController.swift */; };
-		A804EF6D24214A2B0057B9C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A804EF6B24214A2B0057B9C2 /* Main.storyboard */; };
+		A804EF6A24214A2B0057B9C2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6924214A2B0057B9C2 /* ListViewController.swift */; };
 		A804EF7024214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A804EF6E24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld */; };
 		A804EF7224214A2D0057B9C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A804EF7124214A2D0057B9C2 /* Assets.xcassets */; };
 		A804EF7524214A2D0057B9C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A804EF7324214A2D0057B9C2 /* LaunchScreen.storyboard */; };
 		A804EF8024214A2D0057B9C2 /* NikeIOSAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF7F24214A2D0057B9C2 /* NikeIOSAssessmentTests.swift */; };
 		A804EF8B24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF8A24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift */; };
+		A804EF9924214B270057B9C2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF9824214B270057B9C2 /* DetailViewController.swift */; };
+		A804EF9B24214B6A0057B9C2 /* DataObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF9A24214B6A0057B9C2 /* DataObjects.swift */; };
+		A804EF9D24214B8B0057B9C2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF9C24214B8B0057B9C2 /* ImageDownloader.swift */; };
+		A804EF9F24214BA70057B9C2 /* DetailViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EF9E24214BA70057B9C2 /* DetailViewControllerViewModel.swift */; };
+		A804EFA124214BDA0057B9C2 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EFA024214BDA0057B9C2 /* UIViewExtension.swift */; };
+		A804EFA324214C100057B9C2 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EFA224214C100057B9C2 /* AlbumTableViewCell.swift */; };
+		A804EFA524214C2F0057B9C2 /* ProductAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EFA424214C2F0057B9C2 /* ProductAlbum.swift */; };
+		A804EFB72423BD6B0057B9C2 /* DetailViewModelTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EFB62423BD6B0057B9C2 /* DetailViewModelTestCases.swift */; };
+		A804EFBD2423C3D10057B9C2 /* DetailViewTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EFBC2423C3D10057B9C2 /* DetailViewTestCases.swift */; };
+		A804EFBF2423C4920057B9C2 /* ListViewTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A804EFBE2423C4920057B9C2 /* ListViewTestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +46,7 @@
 /* Begin PBXFileReference section */
 		A804EF6424214A2B0057B9C2 /* NikeIOSAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeIOSAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A804EF6724214A2B0057B9C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A804EF6924214A2B0057B9C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A804EF6C24214A2B0057B9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A804EF6924214A2B0057B9C2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		A804EF6F24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NikeIOSAssessment.xcdatamodel; sourceTree = "<group>"; };
 		A804EF7124214A2D0057B9C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A804EF7424214A2D0057B9C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		A804EF8624214A2D0057B9C2 /* NikeIOSAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeIOSAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A804EF8A24214A2E0057B9C2 /* NikeIOSAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeIOSAssessmentUITests.swift; sourceTree = "<group>"; };
 		A804EF8C24214A2E0057B9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A804EF9824214B270057B9C2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A804EF9A24214B6A0057B9C2 /* DataObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataObjects.swift; sourceTree = "<group>"; };
+		A804EF9C24214B8B0057B9C2 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		A804EF9E24214BA70057B9C2 /* DetailViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerViewModel.swift; sourceTree = "<group>"; };
+		A804EFA024214BDA0057B9C2 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A804EFA224214C100057B9C2 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		A804EFA424214C2F0057B9C2 /* ProductAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAlbum.swift; sourceTree = "<group>"; };
+		A804EFB62423BD6B0057B9C2 /* DetailViewModelTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTestCases.swift; sourceTree = "<group>"; };
+		A804EFBC2423C3D10057B9C2 /* DetailViewTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewTestCases.swift; sourceTree = "<group>"; };
+		A804EFBE2423C4920057B9C2 /* ListViewTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +118,12 @@
 			isa = PBXGroup;
 			children = (
 				A804EF6724214A2B0057B9C2 /* AppDelegate.swift */,
-				A804EF6924214A2B0057B9C2 /* ViewController.swift */,
-				A804EF6B24214A2B0057B9C2 /* Main.storyboard */,
-				A804EF7124214A2D0057B9C2 /* Assets.xcassets */,
+				A804EFAE24218F540057B9C2 /* Assests */,
+				A804EFAA24214EE70057B9C2 /* TableViewCell */,
+				A804EFA924214EBC0057B9C2 /* DataObjects */,
+				A804EFA824214E570057B9C2 /* Extensions */,
+				A804EFA724214E1D0057B9C2 /* ViewModels */,
+				A804EFA624214E0A0057B9C2 /* ViewControllers */,
 				A804EF7324214A2D0057B9C2 /* LaunchScreen.storyboard */,
 				A804EF7624214A2D0057B9C2 /* Info.plist */,
 				A804EF6E24214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld */,
@@ -113,6 +134,8 @@
 		A804EF7E24214A2D0057B9C2 /* NikeIOSAssessmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				A804EFC12423C63E0057B9C2 /* ViewModelTestCases */,
+				A804EFC02423C6120057B9C2 /* ViewControllerTestCases */,
 				A804EF7F24214A2D0057B9C2 /* NikeIOSAssessmentTests.swift */,
 				A804EF8124214A2D0057B9C2 /* Info.plist */,
 			);
@@ -126,6 +149,74 @@
 				A804EF8C24214A2E0057B9C2 /* Info.plist */,
 			);
 			path = NikeIOSAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		A804EFA624214E0A0057B9C2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF6924214A2B0057B9C2 /* ListViewController.swift */,
+				A804EF9824214B270057B9C2 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A804EFA724214E1D0057B9C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF9E24214BA70057B9C2 /* DetailViewControllerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A804EFA824214E570057B9C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A804EFA024214BDA0057B9C2 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A804EFA924214EBC0057B9C2 /* DataObjects */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF9A24214B6A0057B9C2 /* DataObjects.swift */,
+				A804EFA424214C2F0057B9C2 /* ProductAlbum.swift */,
+				A804EF9C24214B8B0057B9C2 /* ImageDownloader.swift */,
+			);
+			path = DataObjects;
+			sourceTree = "<group>";
+		};
+		A804EFAA24214EE70057B9C2 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A804EFA224214C100057B9C2 /* AlbumTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		A804EFAE24218F540057B9C2 /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				A804EF7124214A2D0057B9C2 /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
+		A804EFC02423C6120057B9C2 /* ViewControllerTestCases */ = {
+			isa = PBXGroup;
+			children = (
+				A804EFBC2423C3D10057B9C2 /* DetailViewTestCases.swift */,
+				A804EFBE2423C4920057B9C2 /* ListViewTestCases.swift */,
+			);
+			path = ViewControllerTestCases;
+			sourceTree = "<group>";
+		};
+		A804EFC12423C63E0057B9C2 /* ViewModelTestCases */ = {
+			isa = PBXGroup;
+			children = (
+				A804EFB62423BD6B0057B9C2 /* DetailViewModelTestCases.swift */,
+			);
+			path = ViewModelTestCases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +325,6 @@
 			files = (
 				A804EF7524214A2D0057B9C2 /* LaunchScreen.storyboard in Resources */,
 				A804EF7224214A2D0057B9C2 /* Assets.xcassets in Resources */,
-				A804EF6D24214A2B0057B9C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +349,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A804EF6A24214A2B0057B9C2 /* ViewController.swift in Sources */,
+				A804EF6A24214A2B0057B9C2 /* ListViewController.swift in Sources */,
+				A804EF9F24214BA70057B9C2 /* DetailViewControllerViewModel.swift in Sources */,
+				A804EF9B24214B6A0057B9C2 /* DataObjects.swift in Sources */,
+				A804EFA524214C2F0057B9C2 /* ProductAlbum.swift in Sources */,
 				A804EF7024214A2B0057B9C2 /* NikeIOSAssessment.xcdatamodeld in Sources */,
 				A804EF6824214A2B0057B9C2 /* AppDelegate.swift in Sources */,
+				A804EFA324214C100057B9C2 /* AlbumTableViewCell.swift in Sources */,
+				A804EF9D24214B8B0057B9C2 /* ImageDownloader.swift in Sources */,
+				A804EFA124214BDA0057B9C2 /* UIViewExtension.swift in Sources */,
+				A804EF9924214B270057B9C2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A804EFBF2423C4920057B9C2 /* ListViewTestCases.swift in Sources */,
 				A804EF8024214A2D0057B9C2 /* NikeIOSAssessmentTests.swift in Sources */,
+				A804EFBD2423C3D10057B9C2 /* DetailViewTestCases.swift in Sources */,
+				A804EFB72423BD6B0057B9C2 /* DetailViewModelTestCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +397,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A804EF6B24214A2B0057B9C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A804EF6C24214A2B0057B9C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A804EF7324214A2D0057B9C2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
